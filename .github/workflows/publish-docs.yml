@@ -1,9 +1,9 @@
 name: Publish Docs 
 
 on:
-  release:
-    types: [published]
-  workflow_dispatch:
+  push:
+    branches:
+      - test-deployment 
 
 permissions: read-all
 
